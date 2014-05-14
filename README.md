@@ -1,6 +1,6 @@
 # webapp
 
-A Leiningen template for FIXME.
+A Leiningen template for httpkit, compojure, selmer project.
 
 ## Usage
 
