@@ -1,6 +1,10 @@
 # webapp
 
-A Leiningen template for httpkit & compojure & selmer project.
+A Leiningen template for web application
+Used frameworks:
+* compojure
+* httpkit
+* selmer
 
 ## Usage
 

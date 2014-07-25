@@ -14,4 +14,5 @@
              ["project.clj" (render "project.clj")]
              ["README.md"   (render "README.md")]
              ["src/{{sanitized}}/core.clj" (render "core.clj")]
-             ["src/{{sanitized}}/repl.clj" (render "repl.clj")])))
+             ["src/{{sanitized}}/repl.clj" (render "repl.clj")]
+             ["src/templates/index.html" (render "index.html")])))

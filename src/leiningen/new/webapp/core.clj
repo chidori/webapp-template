@@ -2,15 +2,19 @@
   (:require [compojure.core :refer [defroutes routes GET]]
             [compojure.route :as route]
             [ring.middleware.params :refer [wrap-params]]
-            [ring.middleware.keyword-params :refer [wrap-keyword-params]])
+            [ring.middleware.keyword-params :refer [wrap-keyword-params]]
+            [selmer.parser :refer [render-file cache-off!]])
+
   (:gen-class))
 
+(selmer.parser/cache-off!)
+
 (defn index []
-  (str "Index page"))
+      (render-file "templates/index.html" {}))
 
 (defroutes app-routes
            (route/resources "/")
-           (GET "/" [] index)
+           (GET "/" [] (index))
            (route/not-found "Not found"))
 
 (def app
