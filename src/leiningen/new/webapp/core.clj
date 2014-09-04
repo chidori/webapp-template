@@ -22,5 +22,5 @@
       (wrap-keyword-params)
       (wrap-params)))
 
-(defn main- [& args]
+(defn -main [& args]
   (println "main"))

@@ -1,4 +1,4 @@
-(defproject webapp/lein-template "0.1.2"
+(defproject webapp/lein-template "0.1.3"
   :description "Simple webapp project template for leiningen"
   :url "https://github.com/chidori/webapp-template"
   :eval-in-leiningen true

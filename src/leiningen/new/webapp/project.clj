@@ -5,4 +5,5 @@
                  [compojure "1.1.8"]
                  [http-kit "2.1.16"]
                  [selmer "0.6.9"]]
-  :aot :all)
+  :aot :all
+  :main {{name}}.core)
